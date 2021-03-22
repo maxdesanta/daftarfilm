@@ -1,0 +1,48 @@
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* edit keseluruhan */
+body {
+    font-family :sans-serif;
+    margin : 50px 50px 50px 40px; 
+}
+
+/*mngatur tabel*/
+tr th{
+    border-bottom:1px solid black ;
+    padding: 3px 0;
+}
+
+tr:nth-child(odd){
+    border-bottom : 1px solid black;
+    background-color :	gainsboro;
+}
+
+tr:nth-child(even){
+    background-color: ghostwhite;
+}
+
+tr td:first-child{
+    text-align: center;
+}
+
+tr td:last-child{
+    text-align: center;
+}
+
+td{
+  padding :10px;
+}
+
+/*mengatur gambar*/
+img {
+    width : 100px;
+}
+
+/*mendesain-icon*/
+img .icon{
+    width: 50px;
+}
